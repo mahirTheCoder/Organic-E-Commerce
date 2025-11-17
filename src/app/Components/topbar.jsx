@@ -4,8 +4,8 @@ import { IoChevronDownSharp } from "react-icons/io5";
 
 const Topbar = () => {
   return (
-    <section id="topbar" className="py-3 ">
-      <div className="container mx-auto px-4 text-[#666666] flex flex-col sm:flex-row justify-between items-center gap-3">
+    <section id="topbar" className="py-5 border-b border-gray-100">
+      <div className="container mx-auto px-4 text-[#666666] flex flex-col sm:flex-row justify-between items-center gap-3 ">
 
         {/* Left: Location */}
         <div className="flex items-center gap-2 text-sm">
