@@ -27,7 +27,7 @@ const Bottom = () => {
             <div className="menuItems flex items-center gap-10">
 
               {/* ALL CATEGORY SELECT + MENU ICON */}
-              <div className="flex items-center gap-2 bg-green-400 py-5 px-5 rounded-4xl relative">
+              <div className="flex items-center gap-2 bg-green-500 py-5 px-5 rounded-4xl relative">
                 <FaBars className="text-gray-700 text-lg" />
 
                 <select className="appearance-none bg-transparent outline-none text-gray-700 cursor-pointer text-sm pr-4">
@@ -59,8 +59,8 @@ const Bottom = () => {
             </div>
 
             {/* RIGHT CONTACT AREA */}
-            <div className="contact flex items-center gap-2">
-              <FaPhoneAlt className="text-green-700 text-sm" />
+            <div className="contact flex items-center gap-4">
+              <FaPhoneAlt className="text-green-700 text-md" />
               <span className="text-gray-800 font-medium">01897277518</span>
             </div>
 
