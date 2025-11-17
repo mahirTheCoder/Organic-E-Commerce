@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="container mx-auto py-10 grid grid-cols-1 md:grid-cols-4 gap-4">
 
           {/* BOX 1 */}
-          <div className="flex items-center gap-4 p-10 bg-white shadow rounded-lg 
+          <div className="flex items-center gap-4 p-10 bg-[#EDF2EE] shadow rounded-lg 
                           text-gray-800 transition-all duration-300 
                           hover:bg-green-500 hover:text-white cursor-pointer">
             <FaShippingFast className="text-4xl" />
@@ -22,7 +22,7 @@ const Hero = () => {
           </div>
 
           {/* BOX 2 */}
-          <div className="flex items-center gap-4 p-10 bg-white shadow rounded-lg 
+          <div className="flex items-center gap-4 p-10 bg-[#EDF2EE]  shadow rounded-lg 
                           text-gray-800 transition-all duration-300 
                           hover:bg-green-500 hover:text-white cursor-pointer">
             <IoChatbubblesOutline className="text-4xl" />
@@ -33,7 +33,7 @@ const Hero = () => {
           </div>
 
           {/* BOX 3 */}
-          <div className="flex items-center gap-10 p-6 bg-white shadow rounded-lg 
+          <div className="flex items-center gap-10 p-6 bg-[#EDF2EE]  shadow rounded-lg 
                           text-gray-800 transition-all duration-300 
                           hover:bg-green-500 hover:text-white cursor-pointer">
             <MdOutlineSecurity className="text-4xl" />
@@ -44,7 +44,7 @@ const Hero = () => {
           </div>
 
           {/* BOX 4 */}
-          <div className="flex items-center gap-4 p-10 bg-white shadow rounded-lg 
+          <div className="flex items-center gap-4 p-10 bg-[#EDF2EE]  shadow rounded-lg 
                           text-gray-800 transition-all duration-300 
                           hover:bg-green-500 hover:text-white cursor-pointer">
             <RiRefund2Line className="text-4xl" />
