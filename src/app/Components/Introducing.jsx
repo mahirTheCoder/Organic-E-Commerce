@@ -37,9 +37,9 @@ const Introducing = async () => {
               className="relative border border-gray-200 rounded-lg p-4 bg-white hover:border-green-500 hover:bg-green-50 transition"
             >
               {/* Love + Eye Icons */}
-              <div className="absolute top-6 right-2 flex flex-col gap-3">
-                <AiOutlineHeart className="text-xl text-gray-500 cursor-pointer hover:text-green-600" />
-                <AiOutlineEye className="text-xl text-gray-500 cursor-pointer hover:text-green-600" />
+              <div className="absolute top-7 right-5 flex flex-col gap-4">
+                <AiOutlineHeart className="text-2xl text-gray-500 cursor-pointer hover:text-green-600" />
+                <AiOutlineEye className="text-2xl text-gray-500 cursor-pointer hover:text-green-600" />
               </div>
 
               {/* Image */}
