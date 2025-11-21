@@ -12,7 +12,7 @@ const Introducing = async () => {
   const products = apidata.products; // <-- MUST use products array
 
   return (
-    <section id="Introducing" className="py-10 bg-[#F4F6F3]">
+    <section id="Introducing" className="py-20 bg-[#F4F6F3]">
       <div className="container mx-auto px-4">
         {/* Heading */}
         <h2 className="text-center text-3xl font-bold text-gray-800 mb-8">
