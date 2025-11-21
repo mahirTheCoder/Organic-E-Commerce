@@ -33,10 +33,10 @@ const Clients = () => {
         {testimonials.map((item, index) => (
           <div
             key={index}
-            className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative"
+            className="bg-white px-6 py-10 rounded-xl shadow-md border border-gray-200 relative flex flex-col items-center"
           >
             {/* Quote Icon */}
-            <FaQuoteLeft className="text-green-600 text-3xl mb-3" />
+            <FaQuoteLeft className="text-green-600 text-3xl  mb-3" />
 
             <p className="text-gray-600 text-sm leading-relaxed mb-6">
               {item.text}
