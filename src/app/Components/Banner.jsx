@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import banner from "../../../public/Images/Image.png";
+import banner from "../../../public/Images/Group 27.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Banner = () => {
