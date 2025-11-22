@@ -80,7 +80,37 @@ const Latest = () => {
           </div>
         </div>
 
+        {/* CARD 03 */}
+        <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 group overflow-hidden">
+          
+          <div className="relative w-full h-56 overflow-hidden rounded-t-xl">
+            <Image
+              src={lat3}
+              alt="Latest 3"
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            />
 
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+
+            <div className="absolute bottom-3 left-3 bg-white/90 backdrop-blur-md shadow-md rounded-md px-2 py-1 text-xs flex items-center gap-1">
+              <FaRegCalendarAlt className="text-green-600 text-sm" />
+              <span className="font-medium text-gray-700">23 Jan</span>
+            </div>
+          </div>
+
+          <div className="p-4">
+            <p className="text-[#1D293F] font-semibold leading-relaxed">
+              Curabitur porttitor orci eget neque accumsan venenatis.
+            </p>
+            <p className="text-sm text-gray-500 mt-1">
+              Donec mattis fermentum diam gravida aliquet.
+            </p>
+
+            <button className="mt-3 text-[#4CAF50] text-sm font-semibold group-hover:underline">
+              Read More →
+            </button>
+          </div>
+        </div>
 
       </div>
     </section>
