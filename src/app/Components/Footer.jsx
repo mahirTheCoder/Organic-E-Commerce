@@ -57,6 +57,32 @@ const Footer = () => {
             </ul>
           </div>
 
+          {/* ---------- Download Mobile App ---------- */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Download Mobile App</h3>
+
+            <div className="space-y-3">
+              <button className="flex items-center gap-3 bg-[#222] py-2 px-4 rounded-md border border-gray-700 hover:border-green-500 w-44">
+                <FaApple className="text-2xl" />
+                <div className="text-left text-sm leading-4">
+                  <span className="text-xs">Download on the</span>
+                  <br />
+                  <span className="font-semibold">App Store</span>
+                </div>
+              </button>
+
+              <button className="flex items-center gap-3 bg-[#222] py-2 px-4 rounded-md border border-gray-700 hover:border-green-500 w-44">
+                <FaGooglePlay className="text-2xl" />
+                <div className="text-left text-sm leading-4">
+                  <span className="text-xs">Download on the</span>
+                  <br />
+                  <span className="font-semibold">Google Play</span>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+
 
 
         
