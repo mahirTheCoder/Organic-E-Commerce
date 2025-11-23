@@ -26,8 +26,18 @@ const Footer = () => {
               Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna.
             </p>
 
+            {/* Social Icons */}
+            <div className="flex items-center gap-4 text-xl">
+              <a className="hover:text-green-500 cursor-pointer"><FaFacebookF /></a>
+              <a className="hover:text-green-500 cursor-pointer"><FaTwitter /></a>
+              <a className="hover:text-green-500 cursor-pointer"><FaPinterestP /></a>
+              <a className="hover:text-green-500 cursor-pointer"><FaInstagram /></a>
+            </div>
+          </div>
 
 
+
+        
       </footer>
     </>
   );
