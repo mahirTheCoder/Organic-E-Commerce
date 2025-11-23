@@ -35,6 +35,17 @@ const Footer = () => {
             </div>
           </div>
 
+          {/* ---------- My Account ---------- */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4">My Account</h3>
+            <ul className="space-y-2 text-sm text-gray-300">
+              <li className="hover:text-green-500 cursor-pointer">My Account</li>
+              <li className="hover:text-green-500 cursor-pointer">Order History</li>
+              <li className="hover:text-green-500 cursor-pointer">Shoping Cart</li>
+              <li className="hover:text-green-500 cursor-pointer">Wishlist</li>
+            </ul>
+          </div>
+
 
 
         
