@@ -46,6 +46,17 @@ const Footer = () => {
             </ul>
           </div>
 
+          {/* ---------- Helps ---------- */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Helps</h3>
+            <ul className="space-y-2 text-sm text-gray-300">
+              <li className="hover:text-green-500 cursor-pointer">Contact</li>
+              <li className="hover:text-green-500 cursor-pointer">Faqs</li>
+              <li className="hover:text-green-500 cursor-pointer">Terms & Condition</li>
+              <li className="hover:text-green-500 cursor-pointer">Privacy Policy</li>
+            </ul>
+          </div>
+
 
 
         
