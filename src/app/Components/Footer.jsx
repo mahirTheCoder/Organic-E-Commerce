@@ -83,7 +83,12 @@ const Footer = () => {
           </div>
         </div>
 
-
+        {/* ---------- Bottom Bar ---------- */}
+        <div className="border-t border-gray-800 mt-10 pt-6 text-center">
+          <p className="text-gray-400 text-sm">
+            Ecobazar eCommerce © 2021. All Rights Reserved
+          </p>
+        </div>
 
         
       </footer>
